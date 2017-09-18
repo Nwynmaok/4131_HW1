@@ -7,12 +7,19 @@
 .form {
   margin-left: 18%;
   margin-right: 18%;
-  background-color: #d3d3d3;
   text-align: right;
+}
+
+table {
+  margin: 0 auto;
 }
 
 h1 {
   text-align: center;
+}
+
+th {
+  padding : 10px;
 }
 
 a:link{
@@ -20,4 +27,64 @@ a:link{
 }
 a:visited {
  color: yellow;
+}
+
+============================================
+html, body {
+    height: 100%;
+    width: 100%
+}
+body {
+    margin: 0;
+}
+.flex-container1 {
+    height: 100%;
+    padding: 0px;;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.row {
+    width: auto;
+    border: 0px solid blue;
+}
+.flex-item1 {
+    background-color: lightyellow;
+    width: 1200px;
+    height: 800px;
+    margin: 10px;
+    line-height: 20px;
+    color:#800000;;
+
+    text-align: left;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+.flex-item2 {
+  background-color: gold;
+  width: 200px;
+  height: 60px;
+  margin: 10px;
+  font-weight: bold;
+  text-align: left;
+      font-size: 1.5em;
+  padding-top: 35px;
+  padding-left: 25px;
+  line-height: 20px;
+}
+.flex-item3 {
+  width: 170px;
+  height: 80px;
+  margin: 10px;
+  text-align: center;
+  font-size: 1.25em;
+  padding-top: 10px;
+  padding-left: 10px;
+  line-height: 20px;
 }
