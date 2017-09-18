@@ -1,0 +1,23 @@
+.menu {
+  margin-left: 18%;
+  margin-right: 18%;
+  background-color: #800000;
+
+}
+.form {
+  margin-left: 18%;
+  margin-right: 18%;
+  background-color: #d3d3d3;
+  text-align: right;
+}
+
+h1 {
+  text-align: center;
+}
+
+a:link{
+ color: white;
+}
+a:visited {
+ color: yellow;
+}

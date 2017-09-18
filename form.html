@@ -1,0 +1,82 @@
+<!doctype html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <Title>Calendar Input</Title>
+
+</head>
+
+<body>
+
+  <h1>Calendar Input</h1>
+  <div class="menu">
+  <table style="width:100%">
+    <tr>
+      <th><a href="calendar.html">My Calendar</a></th>
+      <th><a href="form.html">Form Input</a></th>
+    </tr>
+  </table>
+  </div>
+  <br>
+  <form action="http://www-users.cselabs.umn.edu/~tulaj001/form_handler.php" method="get">
+  <div class="form">
+    <table style="width:100%">
+      <tr>
+        <th>Event Name:</th>
+        <th>
+
+            <input type="text" name = "eventname" placeholder="">
+
+        </th>
+      </tr>
+      <tr>
+        <th>Day of the week:</th>
+        <th>
+
+            <select name="day">
+              <option value="Monday">Monday</option>
+              <option value="Monday">Tuesday</option>
+              <option value="Monday">Wednesday</option>
+              <option value="Monday">Thursday</option>
+              <option value="Monday">Friday</option>
+              <option value="Monday">Saturday</option>
+              <option value="Monday">Sunday</option>
+            </select>
+
+        </th>
+      </tr>
+      <tr>
+        <th>Start Time:</th>
+        <th>
+
+            <input type="time" name = "starttime" placeholder="">
+
+        </th>
+      </tr>
+      <tr>
+        <th>End Time:</th>
+        <th>
+
+            <input type="time" name = "endtime" placeholder="">
+
+        </th>
+      </tr>
+      <tr>
+        <th>Location:</th>
+        <th>
+
+            <input type="text" name = "location" placeholder="">
+
+        </th>
+      </tr>
+      <tr>
+        <th></th>
+        <th>
+          <input type = "submit" value = "Submit"
+        </th>
+      </tr>
+    </form>
+  </div>
+</body>
+</html>
