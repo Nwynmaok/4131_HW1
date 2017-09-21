@@ -1,96 +1,92 @@
-.menu {
-
-  background-color: #800000;
-  text-align : center;
-}
-.menu a {
-  padding: 25px;
-}
-
-.form {
-  margin-left: 18%;
-  margin-right: 18%;
-  text-align: right;
-}
-
-table {
-  margin: 0 auto;
-}
-
 h1 {
   text-align: center;
 }
 
-th {
-  padding : 10px;
+.menu {
+  background-color: #800000;
+  text-align : center;
+  width:100%;
 }
 
-a:link{
+.menu a {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.menu a:link{
   font-size: 26px;
   color: white;
 }
 
-a:visited {
+.menu a:visited {
   font-size: 26px;
   color: yellow;
 }
 
-============================================
-html, body {
-    height: 100%;
-    width: 100%;
+.form table {
+  margin: auto;
+  width: 60%;
+  text-align: right;
 }
+
 body {
     margin: 0;
 }
-.flex-container1 {
-    height: 100%;
+
+.container1 {
     width: 100%;
-    margin: 0;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background-color: lightgrey;
 }
-.row {
-    width: auto;
-    border: 0px solid blue;
-}
-.flex-item1 {
+
+.item1 {
     background-color: lightyellow;
-    height: 33%;
-    margin: 5px;
+    height: 100%;
+    width: 100%;
     line-height: 5px;
     color:#800000;;
     text-align: left;
+    margin-top: 10px;
 }
 
-.flex-item1 h2 {
+.item1 h2 {
   left: 20px;
   top: 20px;
   position: relative;
 }
 
-.flex-item2 {
+.item2 {
   background-color: gold;
-  width: 10%;
-  height: 80px;
-  margin: 5px;
-  font-weight: bold;
-  text-align: left;
-  font-size: 1.5em;
-  line-height: 20px;
-}
-.flex-item3 {
   width: 20%;
-  height: 80px;
-  margin: 0px;
-  text-align: center;
-  font-size: 1.25em;
+  height: 180px;
+
+  font-size: 1em;
   padding-top: 10px;
   line-height: 20px;
+  text-align: center;
+}
+
+.item2 th {
+  font-weight: bold;
+  font-size: 1.5em;
+  border-right: 5px solid #800000;
+}
+
+.item3 {
+  width: 20%;
+  height: 180px;
+
+  font-size: 1em;
+  padding-top: 10px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.item3 th {
+  font-weight: bold;
+  font-size: 1.5em;
+  border-right: 5px solid #800000;
+}
+
+.time {
+  font-style: italic;
 }
